@@ -1296,10 +1296,10 @@ $acme_domain_validation_method['dns_freedns'] = [
 $acme_domain_validation_method['dns_gandi_livedns'] = [
 	'name' => 'DNS-Gandi LiveDNS',
 	'fields' => [
-		'GANDI_LIVEDNS_KEY' => [
-			'name' => 'gandi_livedns_key',
-			'description' => 'Gandi LiveDNS API Key, retrieved from <a href="https://account.gandi.net">https://account.gandi.net</a>',
-			'columnheader' => 'API Key',
+		'GANDI_LIVEDNS_TOKEN' => [
+			'name' => 'gandi_livedns_token',
+			'description' => 'Gandi LiveDNS PAT Token, retrieved from <a href="https://account.gandi.net">https://account.gandi.net</a>',
+			'columnheader' => 'PAT Token',
 			'type' => 'password',
 		],
 	]
